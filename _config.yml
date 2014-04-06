@@ -1,5 +1,6 @@
 name: Rachael Glassman
 markdown: redcarpet
 pygments: true
+slogan: Producer, Production Manager, Script Editor
 
 exclude: ['config.rb']

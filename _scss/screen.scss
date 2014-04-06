@@ -3,4 +3,41 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+@import "compass";
+
+///variables
+$color-bg  : #000;
+$color-txt : #999;
+$color-hi  : #c98c58;
+
+// text
+
+* {
+  color: $color-txt;
+}
+
+a {
+  @include link-colors($color-hi, $color-hi, $color-txt, $color-hi, $color-hi);
+}
+
+body {
+  //background
+  @include background-image(image-url("bg-full.jpg"));
+  @include background-size(cover);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  padding-top: 70px;  // navbar padding
+}
+
+
+.navbar {
+//  background-color: rgba($color-bg, .7);
+  a {}
+}
+
+.container {
+  background-color: rgba($color-bg, .7);
+  color: $color-txt;
+
+}
