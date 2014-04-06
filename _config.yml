@@ -1,0 +1,5 @@
+name: Rachael Glassman
+markdown: redcarpet
+pygments: true
+
+exclude: ['config.rb']
